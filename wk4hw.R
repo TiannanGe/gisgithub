@@ -8,7 +8,7 @@ library(ggplot2)
 library(dplyr)
 library(tmap)
 #-------------#加载数据
-shape <- st_read("D:/CASA/CASA0005_Geographic_Information_Systems_and_Science/week4/wk4homework/wk4hw/World_Countries_(Generalized)/World_Countries__Generalized_.shp")
+shape <- st_read("D:/CASA/CASA0005_Geographic_Information_Systems_and_Science/week4/wk4homework/gisgithub/World_Countries_(Generalized)/World_Countries__Generalized_.shp")
 csv<- read_csv("HDR21-22_Composite_indices_complete_time_series.csv",locale = locale(encoding = "latin1"),
                      na = c("","NULL"))  #na = "NULL"
 #-------------#从csv中选取country列，以及从dhi2010到hdi2019所有列
